@@ -1,0 +1,127 @@
+@charset "gb2312";
+html,body,div,table,th,td,p,ul,li,aa,dl,dt,dd{ font-family:Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; padding: 0px; margin:0px; color:#787878}
+body{ text-align:center}
+div{ overflow:hidden}
+a{ text-decoration:none; outline:none; }
+table,th,td{ border-collapse:collapse; border-spacing:0px; vertical-align:top}
+ul,li{ list-style-type:none; background-repeat:no-repeat}
+#container{ margin:0px auto;width:1003px; text-align:left}
+a:link{ color:#787878}/*常规，非访问超链接*/
+a:visited{ color:#787878}/*访问超链接*/
+a:hover { color:#333333; text-decoration: none}/*访问者操作鼠标通过时的链接 */
+a:active{ color:#990000; text-decoration:underline}/*点击链接*/
+img{ border:none}
+
+/*分页样式*/
+#Divpage{width:290px; margin:0 auto; text-align:center; padding-left:10px; padding-top:18px;}
+#Divpage li{ float:left; width:auto; padding:2px;}
+#Divpage li a { color:#333; font-size:12px; }
+#Divpage li a:visited { color:#333; font-size:12px; }
+#Divpage li a:hover { color:#0079b8; font-size:12px; }
+
+
+
+
+/*sidebar类别*/
+.proLi{ width:160px; line-height:30px; border-bottom:#CCCCCC solid 1px; display:block; background:url(../images/li.jpg) no-repeat 30px 50%; padding-left:50px; margin-left:32px;}
+
+a.nav{ width:100px; text-align:center; display:block; float:left; color:#FFFFFF; line-height:30px;}
+
+#footer{
+width:984px;
+height:100px;
+padding-top:40px;
+}
+
+#footer p{
+line-height:25px;
+text-align:center
+}
+
+#rmsj{
+margin-left:18px;
+margin-right:25px;
+}
+#rmsj li{
+line-height:17px;
+}
+
+#rmsj li p{
+text-align:right;
+}
+
+#xwzx{
+margin-left:18px;
+margin-right:25px;
+}
+
+#xwzx li {
+	line-height:22px;
+	background: url(../images/s.jpg) no-repeat left 50%;
+	}
+
+#xwzx li em{
+	font-style:normal;
+	float:right;
+}
+
+#left_fl{
+margin:0px 20px;
+}
+
+#left_fl li{
+line-height:17px;
+height:17px;
+
+}
+
+#left_fl .lei_01 li{
+font-weight:bold;
+background:url(../images/r.jpg) no-repeat 15px top;
+}
+
+#left_fl .lei_02{
+border-top:1px #aaa solid;
+
+}
+
+
+#left_fl .lei_02 li{
+font-weight:normal;
+border-bottom:none;
+background:none;
+}
+
+#left_lxwm{
+margin:0px 10px;
+margin-top:5px;
+}
+#left_lxwm p{
+line-height:17px;
+
+} 
+
+#nav{
+margin-left:35px;
+}
+
+#nav li{
+width:90px;
+height:61px;
+line-height:61px;
+float:left;
+font-size:14px;
+color:#fff;
+}
+
+#nav li a{
+color:#fff;
+}
+
+#neiye_main{
+margin:10px 10px;
+}
+#neiye_text{
+margin-top:0px;
+line-height:30px;
+}
